@@ -3,13 +3,13 @@
 
 ## Write a short comment describing this function
 
-makeCacheMatrix <- function(x = matrix()) {
-
-}
+makeCacheMatrix <- matrix(1:4, 2, 2) 
 
 
 ## Write a short comment describing this function
 
-cacheSolve <- function(x, ...) {
+cacheSolve <- function(x) {
+    y <- 1/x
+    print(y)
         ## Return a matrix that is the inverse of 'x'
 }
